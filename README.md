@@ -13,9 +13,9 @@ The purpose of this boilerplate is to jumpstart Jekyll website development by ha
 |  |--+ articles.html
 |  |--+ catalogue.html
 |  |--+ footer.html
-|  |--+ head.html *(includes inline css using scssify)*
+|  |--+ head.html # includes inline css using scssify
 |  |--+ header.html
-|  |--+ kumbhar-vivek.scss *(parent stylesheet, imports .scss files from _sass folder using @imports)*
+|  |--+ kumbhar-vivek.scss # parent stylesheet, imports .scss files from _sass folder using @imports
 |  |--+ navigation.html
 |  |--+ sidebar.html
 |  |--+ social.html
