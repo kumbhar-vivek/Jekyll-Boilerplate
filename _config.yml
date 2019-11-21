@@ -37,15 +37,15 @@ baseurl: ""
 show_dir_listing: false
 
 
-permalink: :/year/:month/:title/ # https://jekyllrb.com/docs/permalinks/#built-in-formats
-paginate: 5 # Number of posts to show
-paginate_path: /page:num
+permalink: /:year/:month/:title/ # https://jekyllrb.com/docs/permalinks/#built-in-formats
+# paginate: 5 # Number of posts to show
+# paginate_path: /page:num
 timezone: Asia/Kolkata # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
-quite: false
-verbose: true
-defaukts: []
+quite: true
+verbose: false
+defaults: []
 
 
 liquid:
