@@ -1,0 +1,78 @@
+title: VK # Site title
+name:  Vivek Kumbhar # Site Owner
+description: # A brief description on the purpose of the website.
+
+
+source: . # default source location
+destination: ./_site # default location of compiled site.
+layouts_dir: _layouts # default location for page and post layout.
+data_dir: _data # default location for data dictionary.
+includes_dir: _includes # page partials for the website.
+sass:
+  sass_dir: _sass # default location for scss partials.
+  style: compressed # output style for the resulting css file.
+
+
+safe: false
+include: [".htaccess"]
+exclude: ["Gemfile", "Gemfile.lock", ".gitignore", ".jekyll-cache", "README.md", "LICENSE"]
+keep_files: [".git", ".svn"]
+encoding: "utf-8"
+locale: "en-US"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+strict_front_matter: true
+
+
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+detach: false
+port: 80 # default is 4000
+host: 0.0.0.0 # default is 127.0.0.1
+baseurl: ""
+show_dir_listing: false
+
+
+permalink: :/year/:month/:title/ # https://jekyllrb.com/docs/permalinks/#built-in-formats
+paginate: 5 # Number of posts to show
+paginate_path: /page:num
+timezone: Asia/Kolkata # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+quite: false
+verbose: true
+defaukts: []
+
+
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
+
+
+kramdown:
+  auto_ids: true
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  hard_wrap: false
+  footnote_nr: 1
+  show_warnings: false
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+    clippings: all
+    # comments: all
+    endings: all
+    # ignore:
+    #     envs: [local]
+    blanklines: false
+    profile: false
+    startings: [html, head, body]

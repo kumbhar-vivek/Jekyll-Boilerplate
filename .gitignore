@@ -1,0 +1,7 @@
+.DS_Store
+docker_compose.yml
+Gemfile.lock
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata

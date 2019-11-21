@@ -1,0 +1,7 @@
+jekyll:
+  image: kumbhar-vivek # docker image name
+  command: jekyll serve
+  ports:
+    - 80:80
+  volumes:
+    - .:/home/jekyll
